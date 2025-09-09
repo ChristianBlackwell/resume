@@ -1,0 +1,183 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Dean Hattenhauer",
+    "label": "Data Analyst & QA",
+    "email": "dean.hattenhauer@outlook.com",
+    "phone": "479-255-8230",
+    "url": "https://christianblackwell.dev",
+    "location": {
+      "city": "Greenwood",
+      "region": "AR"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "christian-blackwell",
+        "url": "https://linkedin.com/in/christian-blackwell"
+      },
+      {
+        "network": "GitHub",
+        "username": "ChristianBlackwell",
+        "url": "https://github.com/ChristianBlackwell"
+      }
+    ],
+    "summary": "Continuous Improvement and Data Analyst with 8+ years quality assurance, optimizing workflows, and delivering data-driven solutions that increase efficiency and reduce waste. Skilled in Lean Six Sigma, process mapping, and root cause analysis to drive sustainable improvements. Experienced in building automation tools, KPI dashboards, and cross-functional strategies that improve performance and service delivery.",
+    "picture": "dean_hattenhauer_professional_picture.jpeg"
+  },
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": ["Python", "JavaScript", "PowerShell", "SQL", "VBA"]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Power BI (Data Visualization & DAX)",
+        "Microsoft Office (Advanced Excel, Word, PowerPoint)",
+        "Power Automate",
+        "SharePoint"
+      ]
+    },
+    {
+      "name": "Concepts",
+      "keywords": [
+        "Lean Six Sigma (Black Belt)",
+        "Process Automation & Optimization",
+        "Root Cause Analysis (RCA, RCPS, DMAIC)",
+        "Agile Methodologies",
+        "KPI & Performance Metrics Tracking",
+        "Performance Improvement",
+        "Workflow Auditing & Compliance Monitoring",
+        "Change Management",
+        "Data Visualization",
+        "Data Manipulation",
+        "Data-Driven Decision Making"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "Foundation Risk Partners",
+      "position": "Data Analyst",
+      "startDate": "2024-10",
+      "summary": "Data analysis and automation across insurance operations.",
+      "highlights": [
+        "Partner with cross-functional stakeholders to coordinate, plan, and deliver process improvement initiatives supporting compliance, audit readiness, and operational efficiency in an insurance and risk management environment.",
+        "Conduct root cause analysis on process gaps and compliance failures; implement standardized corrective workflows, reducing repeat audit issues by 35%.",
+        "Develop and maintain Power BI dashboards and Excel reports to track KPIs for audit performance, SLA adherence, and process compliance — enabling leadership to identify bottlenecks and prioritize solutions.",
+        "Lead change management for audit workflow updates by creating documentation, training materials, and adoption strategies across multiple departments.",
+        "Automate repetitive audit tasks using PowerShell scripts (data cleanup, report archiving, SLA alerts), cutting manual workload by 60% and improving consistency."
+      ]
+    },
+    {
+      "name": "Foundever",
+      "position": "Lead Quality Analyst",
+      "startDate": "2022-04",
+      "endDate": "2024-09",
+      "summary": "Rejoined after a 1-year external Project Coordinator role (Apr 2021 – Apr 2022); returned to core QA leadership responsibilities with an expanded scope in performance oversight, automation, data-driven reporting, and cross-site continuous improvement.",
+      "highlights": [
+        "Spearheaded continuous improvement projects across four operational sites, boosting evaluation efficiency by 15% through automation of call grading processes.",
+        "Facilitated RCPS (Root Cause Problem Solving) workshops, reducing defects by 50% and improving Six Sigma performance from 3.09 to 3.58.",
+        "Designed and implemented a centralized quality reporting system to monitor quality metrics, enabling rapid insights and more targeted coaching strategies.",
+        "Standardized claims QA documentation and escalation protocols, reducing onboarding time and ensuring consistency across teams."
+      ]
+    },
+    {
+      "name": "Foundever",
+      "position": "Lead Quality Analyst",
+      "startDate": "2016-02",
+      "endDate": "2021-04",
+      "summary": "Led QA initiatives and reporting automation across financial operations.",
+      "highlights": [
+        "Facilitated weekly, bi-weekly, and monthly business reviews with senior bank stakeholders, presenting KPI trends, audit outcomes, and performance improvement plans to drive alignment and accountability.",
+        "Developed executive-ready KPI dashboards and performance reports, ensuring clear visibility into dispute resolution accuracy, SLA adherence, and compliance results across multiple sites.",
+        "Partnered with directors and VPs to create corrective action plans for underperforming metrics, resulting in measurable improvements in accuracy, timeliness, and customer experience.",
+        "Influenced strategic decision-making by translating quality data into actionable insights, positioning QA as a driver of operational and financial performance."
+      ]
+    }
+  ],
+  "education": [],
+  "certificates": [
+    {
+      "name": "Lean Six Sigma - Black Belt",
+      "issuer": "RPM Academy",
+      "date": "2024-04-22"
+    },
+    { "name": "Data Analysis", "issuer": "RPM Academy", "date": "2024-04-15" },
+    {
+      "name": "Agile Project Management",
+      "issuer": "RPM Academy",
+      "date": "2024-04-15"
+    },
+    {
+      "name": "Power BI Essential Training (NASBA Certified)",
+      "issuer": "LinkedIn Learning",
+      "date": "2025-08-06"
+    },
+    {
+      "name": "SQL Essential Training (NASBA Certified)",
+      "issuer": "LinkedIn Learning",
+      "date": "2025-07-31"
+    },
+    {
+      "name": "MySQL Essential Training",
+      "issuer": "LinkedIn Learning",
+      "date": "2023-10-17"
+    },
+
+    {
+      "name": "Learn Functional Programming in Python",
+      "issuer": "Boot.dev",
+      "date": "2025-08-26"
+    },
+    {
+      "name": "Build an AI Agent in Python",
+      "issuer": "Boot.dev",
+      "date": "2025-09-01"
+    },
+    { "name": "Cybersecurity", "issuer": "RPM Academy", "date": "2024-04-17" }
+  ],
+  "projects": [
+    {
+      "name": "Full Security Audit Process Revamp (Foundation Risk Partners)",
+      "description": "Standardized and documented workflows for 18 security audits, improving efficiency, consistency, and onboarding speed. \n Enhanced audit consistency and reduced missed steps via detailed process mapping. \n Elevated leadership visibility and set the groundwork for future automation.",
+      "highlights": [
+        "Internal Audit Docs, Power BI, SharePoint, PowerShell, Excel"
+      ],
+      "keywords": ["Power BI", "SharePoint", "PowerShell", "Excel"]
+    },
+    {
+      "name": "RCPS Defect Reduction Initiative (Foundever)",
+      "description": "Led Root Cause Problem Solving workshops to address systemic process flaws. \n Achieved a 50% reduction in defect rate and raised Six Sigma performance from 3.09 to 3.58. \n Standardized corrective action procedures across multiple sites for wider adoption.",
+      "highlights": ["RCA frameworks, Six Sigma DMAIC"],
+      "keywords": ["RCA frameworks", "Six Sigma DMAIC"]
+    },
+    {
+      "name": "Audit Workflow Automation (Foundation Risk Partners)",
+      "description": "Automated repetitive audit-related tasks using PowerShell for data cleanup, archiving, and SLA alerts. \n Reduced manual workload by 60% and improved consistency and timeliness in compliance reporting.",
+      "highlights": ["PowerShell, Excel"],
+      "keywords": ["PowerShell", "Excel"]
+    },
+    {
+      "name": "Power BI Audit Tracker Dashboard (Foundation Risk Partners)",
+      "description": "Built an interactive dashboard to monitor audit progress, SLA compliance, and key department KPIs. \n Enabled leadership to detect bottlenecks in real time. \n Boosted SLA-aligned audit task completion by 15%.",
+      "highlights": ["Power BI, DAX, Excel"],
+      "keywords": ["Power BI", "DAX", "Excel"]
+    },
+    {
+      "name": "AI Agent in Python (Boot.dev Project)",
+      "description": "Developed an LLM-powered, agentic command-line tool in Python that can read, update, and execute code using the Google Gemini API. \n Implemented function calling and feedback loops to enable the AI agent to autonomously identify and fix bugs in real projects. \n Learned agent architecture and modern AI workflow design—demonstrating preparedness for AI-enabled automation in business environments.",
+      "highlights": [
+        "Python, Google Gemini API, Functional Programming, Agentic LLM workflows"
+      ],
+      "keywords": [
+        "Python",
+        "Google Gemini",
+        "API",
+        "Functional Programming",
+        "LLM"
+      ]
+    }
+  ]
+}

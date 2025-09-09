@@ -1,0 +1,24 @@
+{
+  "name": "resume_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preview:paper": "resume serve --theme paper",
+    "preview:elegant": "resume serve --theme elegant",
+    "build:pdf": "PUPPETEER_EXECUTABLE_PATH=\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" resume export dist/resume.pdf --theme paper",
+    "build:web:html": "resume export dist/index.html --theme elegant --format html",
+    "build:all": "mkdir -p dist && npm run build:pdf && npm run build:web:html",
+    "serve:web": "python3 -m http.server 4000 --directory dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-flat": "^0.3.7",
+    "jsonresume-theme-paper": "^0.5.0",
+    "jsonresume-theme-spartan": "^0.3.0",
+    "resume-cli": "^3.1.2"
+  }
+}
