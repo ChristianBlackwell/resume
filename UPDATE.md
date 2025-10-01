@@ -12,10 +12,7 @@
    mkdir -p dist
    npx resume export dist/index.html --theme elegant --format html
    cp public/\* dist/ 2>/dev/null || true
-
-   # preserve custom domain
-
-   cp docs/CNAME dist/ 2>/dev/null || true  
+   cp docs/CNAME dist/ 2>/dev/null || true #<-- preserve custom domain
    rm -rf docs && mv dist docs
 
 4. **Commit changes**
