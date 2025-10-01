@@ -36,6 +36,7 @@
         "Power BI (Data Visualization & DAX)",
         "Microsoft Office (Advanced Excel, Word, PowerPoint)",
         "Power Automate",
+        "Selenium",
         "SharePoint"
       ]
     },
@@ -61,6 +62,7 @@
       "name": "Foundation Risk Partners",
       "position": "Data Analyst",
       "startDate": "2024-10",
+      "endDate": "2025-10",
       "summary": "Data analysis and automation across insurance operations.",
       "highlights": [
         "Partner with cross-functional stakeholders to coordinate, plan, and deliver process improvement initiatives supporting compliance, audit readiness, and operational efficiency in an insurance and risk management environment.",
