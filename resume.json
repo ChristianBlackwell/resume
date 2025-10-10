@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Dean Hattenhauer",
-    "label": "Data Analyst & QA",
+    "label": "Software QA Tester & Analyst",
     "email": "dean.hattenhauer@outlook.com",
     "phone": "479-255-8230",
     "url": "https://deanhattenhauer.dev",
@@ -22,38 +22,67 @@
         "url": "https://github.com/ChristianBlackwell"
       }
     ],
-    "summary": "Continuous Improvement and Data Analyst with 8+ years quality assurance, optimizing workflows, and delivering data-driven solutions that increase efficiency and reduce waste. Skilled in Lean Six Sigma, process mapping, and root cause analysis to drive sustainable improvements. Experienced in building automation tools, KPI dashboards, and cross-functional strategies that improve performance and service delivery.",
+    "summary": "Detail-oriented Software QA Tester with hands-on experience in manual, API, performance, and automation testing, backed by a strong foundation in process improvement and quality leadership. Adept at creating and executing test cases, identifying and documenting defects, and applying Agile methodologies to ensure software reliability and performance. Combines analytical, process-driven thinking and a Lean Six Sigma foundation with practical skills in tools like Jira, Zephyr, Postman, JMeter, and Selenium. \n\n Currently pursuing industry certifications, including ISTQB CTFL, with a long-term focus on advancing into Game QA and Game Development—bridging quality assurance and creative design.",
     "picture": "dean_hattenhauer_professional_picture.jpeg"
   },
   "skills": [
     {
-      "name": "Languages",
-      "keywords": ["Python", "JavaScript", "PowerShell", "SQL", "VBA"]
+      "name": "Testing Types & Techniques",
+      "keywords": [
+        "Manual",
+        "Functional",
+        "Regression",
+        "API",
+        "Performance",
+        "User Interface (UI)",
+        "User Experience (UX)",
+        "Black-box",
+        "Boundary Value",
+        "Equivalence Partitioning",
+        "CRUD",
+        "Smoke/Sanity"
+      ]
     },
     {
-      "name": "Tools",
+      "name": "Tools & Frameworks",
       "keywords": [
-        "Power BI (Data Visualization & DAX)",
-        "Microsoft Office (Advanced Excel, Word, PowerPoint)",
+        "Jira",
+        "Zephyr",
+        "Trello",
+        "Qase",
+        "Postman",
+        "JMeter",
+        "Selenium WebDriver",
+        "Katalon Studio",
+        "Power BI",
+        "DAX",
+        "PowerShell",
         "Power Automate",
-        "Selenium",
+        "Excel",
         "SharePoint"
       ]
     },
     {
-      "name": "Concepts",
+      "name": "Languages",
+      "keywords": ["Python", "JavaScript", "SQL", "VBA"]
+    },
+    {
+      "name": "Methodologies & Concepts",
       "keywords": [
-        "Lean Six Sigma (Black Belt)",
-        "Process Automation & Optimization",
-        "Root Cause Analysis (RCA, RCPS, DMAIC)",
-        "Agile Methodologies",
-        "KPI & Performance Metrics Tracking",
-        "Performance Improvement",
-        "Workflow Auditing & Compliance Monitoring",
-        "Change Management",
+        "Agile",
+        "Scrum",
+        "Software Development Life Cycle (SDLC)",
+        "Software Testing Life Cycle (STLC)",
+        "Lean Six Sigma (LSS)",
+        "Root Cause Analysis (RCA)",
+        "DMAIC Process",
+        "Process Automation",
+        "Process Optimization",
+        "Workflow Auditing",
+        "Compliance Monitoring",
         "Data Visualization",
-        "Data Manipulation",
-        "Data-Driven Decision Making"
+        "KPI Tracking",
+        "Performance Tracking"
       ]
     }
   ],
@@ -102,6 +131,11 @@
   "education": [],
   "certificates": [
     {
+      "name": "The Complete 2025 Software Testing Bootcamp",
+      "issuer": "Udemy (Tarek Roshdy / Nezam Academy)",
+      "date": "2025-10-09"
+    },
+    {
       "name": "Lean Six Sigma - Black Belt",
       "issuer": "RPM Academy",
       "date": "2024-04-22"
@@ -142,44 +176,113 @@
   ],
   "projects": [
     {
-      "name": "Full Security Audit Process Revamp (Foundation Risk Partners)",
-      "description": "Standardized and documented workflows for 18 security audits, improving efficiency, consistency, and onboarding speed. \n Enhanced audit consistency and reduced missed steps via detailed process mapping. \n Elevated leadership visibility and set the groundwork for future automation.",
-      "highlights": [
-        "Internal Audit Docs, Power BI, SharePoint, PowerShell, Excel"
-      ],
-      "keywords": ["Power BI", "SharePoint", "PowerShell", "Excel"]
+      "name": "Manual Web Testing",
+      "description": "Executed 75+ manual test cases across travel booking, to-do, and e-commerce web apps; identified 10+ defects through Jira/Zephyr, Trello, and Qase. \n Applied black-box and boundary-value techniques, ensuring functional coverage and user-journey validation.",
+      "highlights": ["Jira, Zephyr, Trello, Qase, Agile QA"],
+      "keywords": [
+        "Manual Testing",
+        "Web QA",
+        "Jira",
+        "Zephyr",
+        "Trello",
+        "Qase"
+      ]
     },
     {
-      "name": "RCPS Defect Reduction Initiative (Foundever)",
-      "description": "Led Root Cause Problem Solving workshops to address systemic process flaws. \n Achieved a 50% reduction in defect rate and raised Six Sigma performance from 3.09 to 3.58. \n Standardized corrective action procedures across multiple sites for wider adoption.",
-      "highlights": ["RCA frameworks, Six Sigma DMAIC"],
-      "keywords": ["RCA frameworks", "Six Sigma DMAIC"]
+      "name": "API Testing with Postman",
+      "description": "Built 30+ Postman tests validating CRUD and authentication endpoints. \n Used JavaScript assertions and dynamic environment variables to chain requests, verify response codes, payloads, and performance thresholds.",
+      "highlights": ["Postman, REST API, JavaScript Assertions, Auth Tokens"],
+      "keywords": [
+        "Postman",
+        "API Testing",
+        "CRUD",
+        "REST",
+        "JavaScript",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Performance Testing with JMeter",
+      "description": "Configured Thread Groups, Controllers, and Listeners to simulate user load and analyze response time and throughput. \n Applied performance metrics (utilization, robustness, scalability) to identify bottlenecks under varying test conditions.",
+      "highlights": ["JMeter, BlazeMeter, Performance Testing"],
+      "keywords": [
+        "JMeter",
+        "Performance Testing",
+        "Load Testing",
+        "BlazeMeter"
+      ]
+    },
+    {
+      "name": "UI Automation with Selenium & Katalon",
+      "description": "Created automated UI test scripts in Python using Selenium WebDriver to validate form and navigation flows. \n Explored Katalon Studio for codeless test automation and reporting dashboards.",
+      "highlights": ["Selenium, Python, Katalon, Automation Frameworks"],
+      "keywords": ["Selenium", "Python", "Katalon", "Automation"]
     },
     {
       "name": "Audit Workflow Automation (Foundation Risk Partners)",
-      "description": "Automated repetitive audit-related tasks using PowerShell for data cleanup, archiving, and SLA alerts. \n Reduced manual workload by 60% and improved consistency and timeliness in compliance reporting.",
-      "highlights": ["PowerShell, Excel"],
-      "keywords": ["PowerShell", "Excel"]
+      "description": "Automated internal audit workflows with PowerShell for attachments, archiving, and SLA alerts, cutting manual workload by 60%. \n Improved audit turnaround time and consistency in compliance reporting.",
+      "highlights": ["PowerShell, Excel, Process Automation"],
+      "keywords": ["PowerShell", "Excel", "Automation", "Process Improvement"]
     },
     {
       "name": "Power BI Audit Tracker Dashboard (Foundation Risk Partners)",
-      "description": "Built an interactive dashboard to monitor audit progress, SLA compliance, and key department KPIs. \n Enabled leadership to detect bottlenecks in real time. \n Boosted SLA-aligned audit task completion by 15%.",
-      "highlights": ["Power BI, DAX, Excel"],
-      "keywords": ["Power BI", "DAX", "Excel"]
+      "description": "Built an interactive dashboard to track audit progress, SLA compliance, and department KPIs. \n Enabled leadership to detect bottlenecks in real time and increased SLA-aligned completion by 15%.",
+      "highlights": ["Power BI, DAX, Excel, Data Visualization"],
+      "keywords": ["Power BI", "DAX", "Excel", "Reporting"]
     },
     {
       "name": "AI Agent in Python (Boot.dev Project)",
-      "description": "Developed an LLM-powered, agentic command-line tool in Python that can read, update, and execute code using the Google Gemini API. \n Implemented function calling and feedback loops to enable the AI agent to autonomously identify and fix bugs in real projects. \n Learned agent architecture and modern AI workflow design—demonstrating preparedness for AI-enabled automation in business environments.",
-      "highlights": [
-        "Python, Google Gemini API, Functional Programming, Agentic LLM workflows"
-      ],
+      "description": "Developed an LLM-powered agent using Google Gemini API capable of reading, updating, and executing code via autonomous feedback loops. \n Demonstrated early AI-driven test automation capabilities.",
+      "highlights": ["Python, Google Gemini API, Agentic Workflows"],
+      "keywords": ["Python", "Google Gemini", "AI", "Automation"]
+    },
+    {
+      "name": "Movie Information Finder (Front-End API Project)",
+      "description": "Created a JavaScript web app integrating TMDb API for search, movie details, and random recommendations. \n Designed with modular code and responsive UI for clear data presentation.",
+      "highlights": ["HTML, CSS, JavaScript, TMDb API"],
+      "keywords": ["HTML", "CSS", "JavaScript", "TMDb API", "Frontend"],
+      "url": "https://christianblackwell.github.io/Movie-Information-Finder/"
+    },
+    {
+      "name": "Weather App (Front-End API Project)",
+      "description": "Built a front-end weather application allowing users to check real-time forecasts by city and state. \n Implemented dynamic data retrieval using the OpenWeatherMap API and styled responsive layouts for mobile and desktop users.",
+      "highlights": ["HTML, CSS, JavaScript, OpenWeatherMap API"],
+      "keywords": ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
+      "url": "https://christianblackwell.github.io/Weather-App/"
+    },
+    {
+      "name": "JavaScript Evaluation Automation Project (Foundever)",
+      "description": "Developed a browser-based JavaScript automation script to evaluate and validate functions for syntax correctness, edge-case handling, and runtime performance. \n Leveraged DOM manipulation to dynamically parse input elements, trigger test cases, and display validation results, reducing manual review time and improving testing accuracy.",
+      "highlights": ["JavaScript, DOM Manipulation, Automation, Unit Testing"],
       "keywords": [
-        "Python",
-        "Google Gemini",
-        "API",
-        "Functional Programming",
-        "LLM"
+        "JavaScript",
+        "DOM Manipulation",
+        "Automation",
+        "Unit Testing"
       ]
+    },
+    {
+      "name": "Full Security Audit Process Revamp (Foundation Risk Partners)",
+      "description": "Standardized and documented workflows for 18+ recurring security audits, improving consistency and onboarding efficiency. \n Reduced missed steps and enhanced audit traceability through detailed process mapping and cross-department visibility.",
+      "highlights": ["Process Documentation, Power BI, PowerShell, Excel"],
+      "keywords": ["Process Documentation", "Power BI", "PowerShell", "Excel"]
+    },
+    {
+      "name": "RCPS Defect Reduction Initiative (Foundever)",
+      "description": "Led Root Cause Problem Solving workshops targeting systemic QA performance issues. \n Reduced recurring defects by 50% and improved Six Sigma performance from 3.09 to 3.58 across multiple sites.",
+      "highlights": ["RCA Frameworks, Six Sigma DMAIC, Process Improvement"],
+      "keywords": [
+        "RCA Frameworks",
+        "Six Sigma",
+        "DMAIC",
+        "Process Improvement"
+      ]
+    },
+    {
+      "name": "Gender Reveal Website (Early Project)",
+      "description": "Created a fun interactive site within the first week of learning web development. \n A nostalgic milestone demonstrating early creativity and curiosity in design and interaction logic.",
+      "highlights": ["HTML, CSS, JavaScript"],
+      "keywords": ["HTML", "CSS", "JavaScript"]
     }
   ]
 }
