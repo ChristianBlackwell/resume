@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Dean Hattenhauer",
-    "label": "Software QA Tester & Analyst",
+    "label": "QA Automation Engineer",
     "email": "dean.hattenhauer@outlook.com",
     "phone": "479-255-8230",
     "url": "https://deanhattenhauer.dev",
@@ -22,7 +22,7 @@
         "url": "https://github.com/ChristianBlackwell"
       }
     ],
-    "summary": "Detail-oriented Software QA Tester with hands-on experience in manual, API, performance, and automation testing, backed by a strong foundation in process improvement and quality leadership. Adept at creating and executing test cases, identifying and documenting defects, and applying Agile methodologies to ensure software reliability and performance. Combines analytical, process-driven thinking and a Lean Six Sigma foundation with practical skills in tools like Jira, Zephyr, Postman, JMeter, and Selenium. \n\n Currently pursuing industry certifications, including ISTQB CTFL, with a long-term focus on advancing into Game QA and Game Development—bridging quality assurance and creative design.",
+    "summary": "QA Automation Engineer with 8+ years of experience in automated, manual, API, and performance testing, backed by a strong foundation in process improvement and quality leadership. Hands-on with Selenium WebDriver (Python), Postman, JMeter, and PowerShell automation in professional environments. Adept at designing test plans, executing regression and functional test suites, and identifying defects across complex systems. Brings a Lean Six Sigma Black Belt mindset to root cause analysis and continuous improvement. Currently pursuing ISTQB CTFL certification.",
     "picture": "dean_hattenhauer_professional_picture.jpeg"
   },
   "skills": [
@@ -88,6 +88,16 @@
   ],
   "work": [
     {
+      "name": "Experis (contracted to Meta)",
+      "position": "QA Content Analyst",
+      "startDate": "2026-01",
+      "summary": "Structured quality review of AI-generated outputs for Meta wearables products, applying defined acceptance criteria and consistent scoring standards in a fast-paced remote environment.",
+      "highlights": [
+        "Perform structured quality review of AI-generated outputs against defined acceptance criteria within a fast-paced, remote Agile environment",
+        "Apply consistent scoring standards, document edge cases, and flag systematic issues to support ongoing quality improvement"
+      ]
+    },
+    {
       "name": "Foundation Risk Partners",
       "position": "Data Analyst",
       "startDate": "2024-10",
@@ -131,14 +141,14 @@
   "education": [],
   "certificates": [
     {
-      "name": "The Complete 2025 Software Testing Bootcamp",
-      "issuer": "Udemy (Tarek Roshdy / Nezam Academy)",
-      "date": "2025-10-09"
-    },
-    {
       "name": "Lean Six Sigma - Black Belt",
       "issuer": "RPM Academy",
       "date": "2024-04-22"
+    },
+    {
+      "name": "The Complete 2025 Software Testing Bootcamp",
+      "issuer": "Udemy (Tarek Roshdy / Nezam Academy)",
+      "date": "2025-10-09"
     },
     { "name": "Data Analysis", "issuer": "RPM Academy", "date": "2024-04-15" },
     {
@@ -175,6 +185,19 @@
     { "name": "Cybersecurity", "issuer": "RPM Academy", "date": "2024-04-17" }
   ],
   "projects": [
+    {
+      "name": "Portfolio Site & Live Resume System",
+      "description": "Built a custom portfolio site powered by a JSON schema as a single source of truth, enabling seamless content updates across all rendered sections. Designed and developed entirely from scratch with a focus on clean structure, maintainability, and professional presentation.",
+      "highlights": ["HTML, CSS, JavaScript, JSON"],
+      "keywords": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "JSON Schema",
+        "Front-End Development",
+        "Web Development"
+      ]
+    },
     {
       "name": "Manual Web Testing",
       "description": "Executed 75+ manual test cases across travel booking, to-do, and e-commerce web apps; identified 10+ defects through Jira/Zephyr, Trello, and Qase. \n Applied black-box and boundary-value techniques, ensuring functional coverage and user-journey validation.",
@@ -238,14 +261,14 @@
     },
     {
       "name": "Movie Information Finder (Front-End API Project)",
-      "description": "Created a JavaScript web app integrating TMDb API for search, movie details, and random recommendations. \n Designed with modular code and responsive UI for clear data presentation.",
+      "description": "Created a JavaScript web app integrating TMDb API for search, movie details, and random recommendations. \n Designed with modular code and responsive UI for clear data presentation. \n\n Hosted on GitHub under my former name (ChristianBlackwell) — same account, now publishing as Dean Hattenhauer.",
       "highlights": ["HTML, CSS, JavaScript, TMDb API"],
       "keywords": ["HTML", "CSS", "JavaScript", "TMDb API", "Frontend"],
       "url": "https://christianblackwell.github.io/Movie-Information-Finder/"
     },
     {
       "name": "Weather App (Front-End API Project)",
-      "description": "Built a front-end weather application allowing users to check real-time forecasts by city and state. \n Implemented dynamic data retrieval using the OpenWeatherMap API and styled responsive layouts for mobile and desktop users.",
+      "description": "Built a front-end weather application allowing users to check real-time forecasts by city and state. \n Implemented dynamic data retrieval using the OpenWeatherMap API and styled responsive layouts for mobile and desktop users. \n\n Hosted on GitHub under my former name (ChristianBlackwell) — same account, now publishing as Dean Hattenhauer.",
       "highlights": ["HTML, CSS, JavaScript, OpenWeatherMap API"],
       "keywords": ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
       "url": "https://christianblackwell.github.io/Weather-App/"
@@ -280,7 +303,7 @@
     },
     {
       "name": "Gender Reveal Website (Early Project)",
-      "description": "Created a fun interactive site within the first week of learning web development. \n A nostalgic milestone demonstrating early creativity and curiosity in design and interaction logic.",
+      "description": "Created a fun interactive site within the first week of learning web development. \n A nostalgic milestone demonstrating early creativity and curiosity in design and interaction logic. \n\n First Web Development project.",
       "highlights": ["HTML, CSS, JavaScript"],
       "keywords": ["HTML", "CSS", "JavaScript"]
     }
