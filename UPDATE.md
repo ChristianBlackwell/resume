@@ -8,18 +8,6 @@
    - npx resume serve --theme elegant --port 4001
    - Open http://localhost:4001 to check layout and links.
 
-# 3. **Rebuild the site** OLD PROCESS - KEEP UNTIL NEW STEP 3 IS TESTED AND PROVEN TO WORK
-
-# - mkdir -p dist
-
-# - npx resume export dist/index.html --theme elegant --format html
-
-# - cp -r public/\* dist/ 2>/dev/null || true #<-- Added -r to preserve image, HAS NOT been tested. Verify next update.
-
-# - cp docs/CNAME dist/ 2>/dev/null || true #<-- preserve custom domain
-
-# - rm -rf docs && mv dist docs
-
 3. **Rebuild the site**
    - mkdir -p dist
    - npx resume export dist/index.html --theme elegant --format html
