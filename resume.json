@@ -260,6 +260,13 @@
       "keywords": ["Python", "Google Gemini", "AI", "Automation"]
     },
     {
+      "name": "2D Platformer (Godot 4)",
+      "description": "A 2D platformer built in Godot 4, originally developed alongside Jackie Codes' Intro to Godot course (Udemy) and significantly extended with original systems. Features key collection, NPC interaction (The Reaper), teleportation, level progression, bounce pads, lava hazards, speed belt tiles, and a 3 heart health system.",
+      "highlights": ["Godot 4, GDScript, Game Development"],
+      "keywords": ["Godot", "GDScript", "Game Development", "2D Platformer"],
+      "url": "https://dean-codes.itch.io/2d-platformer"
+    },
+    {
       "name": "Movie Information Finder (Front-End API Project)",
       "description": "Created a JavaScript web app integrating TMDb API for search, movie details, and random recommendations. \n Designed with modular code and responsive UI for clear data presentation. \n\n Hosted on GitHub under my former name (ChristianBlackwell) — same account, now publishing as Dean Hattenhauer.",
       "highlights": ["HTML, CSS, JavaScript, TMDb API"],
@@ -300,12 +307,6 @@
         "DMAIC",
         "Process Improvement"
       ]
-    },
-    {
-      "name": "Gender Reveal Website (Early Project)",
-      "description": "Created a fun interactive site within the first week of learning web development. \n A nostalgic milestone demonstrating early creativity and curiosity in design and interaction logic. \n\n First Web Development project.",
-      "highlights": ["HTML, CSS, JavaScript"],
-      "keywords": ["HTML", "CSS", "JavaScript"]
     }
   ]
 }
