@@ -146,6 +146,11 @@
       "date": "2024-04-22"
     },
     {
+      "name": "Build a Static Site Generator in Python",
+      "issuer": "Boot.dev",
+      "date": "2026-03-16"
+    },
+    {
       "name": "The Complete 2025 Software Testing Bootcamp",
       "issuer": "Udemy (Tarek Roshdy / Nezam Academy)",
       "date": "2025-10-09"
@@ -258,6 +263,22 @@
       "description": "Developed an LLM-powered agent using Google Gemini API capable of reading, updating, and executing code via autonomous feedback loops. \n Demonstrated early AI-driven test automation capabilities.",
       "highlights": ["Python, Google Gemini API, Agentic Workflows"],
       "keywords": ["Python", "Google Gemini", "AI", "Automation"]
+    },
+    {
+      "name": "Static Site Generator (Boot.dev Project)",
+      "description": "Built a fully functional static site generator in Python from scratch. Converts Markdown files into a complete HTML website using a recursive file system crawler, custom Markdown parser, and object-oriented node architecture. \n\n Hosted on GitHub under my former name (ChristianBlackwell) — same account, now publishing as Dean Hattenhauer.",
+      "highlights": [
+        "Python, OOP, Markdown Parsing, Regex, Recursion, File System Operations"
+      ],
+      "keywords": [
+        "Python",
+        "Static Site Generation",
+        "OOP",
+        "Markdown",
+        "Regex",
+        "Recursion"
+      ],
+      "url": "https://christianblackwell.github.io/Static-Site-Generator/"
     },
     {
       "name": "2D Platformer (Godot 4)",
