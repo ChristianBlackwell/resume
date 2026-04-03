@@ -13,7 +13,7 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "christian-blackwell",
+        "username": "dean-hattenhauer",
         "url": "https://linkedin.com/in/dean-hattenhauer"
       },
       {
@@ -26,6 +26,35 @@
     "picture": "dean_hattenhauer_professional_picture.jpeg"
   },
   "skills": [
+    {
+      "name": "Infrastructure & DevOps",
+      "keywords": [
+        "Docker",
+        "Linux",
+        "Ubuntu Server",
+        "Prometheus",
+        "Grafana",
+        "Netdata",
+        "Pi-hole",
+        "Tailscale",
+        "SSH",
+        "DNS",
+        "Network Administration",
+        "Static IP Configuration",
+        "Self-Hosted Infrastructure"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "Python",
+        "JavaScript",
+        "SQL",
+        "Bash/Linux CLI",
+        "GDScript",
+        "VBA"
+      ]
+    },
     {
       "name": "Testing Types & Techniques",
       "keywords": [
@@ -46,25 +75,21 @@
     {
       "name": "Tools & Frameworks",
       "keywords": [
-        "Jira",
-        "Zephyr",
-        "Trello",
-        "Qase",
+        "Selenium WebDriver",
         "Postman",
         "JMeter",
-        "Selenium WebDriver",
-        "Katalon Studio",
         "Power BI",
-        "DAX",
+        "Katalon Studio",
         "PowerShell",
         "Power Automate",
+        "DAX",
+        "Jira",
+        "Zephyr",
+        "Qase",
+        "Trello",
         "Excel",
         "SharePoint"
       ]
-    },
-    {
-      "name": "Languages",
-      "keywords": ["Python", "JavaScript", "SQL", "VBA"]
     },
     {
       "name": "Methodologies & Concepts",
@@ -91,6 +116,7 @@
       "name": "Experis (contracted to Meta)",
       "position": "QA Content Analyst",
       "startDate": "2026-01",
+      "endDate": "2026-03",
       "summary": "Structured quality review of AI-generated outputs for Meta wearables products, applying defined acceptance criteria and consistent scoring standards in a fast-paced remote environment.",
       "highlights": [
         "Perform structured quality review of AI-generated outputs against defined acceptance criteria within a fast-paced, remote Agile environment",
@@ -151,15 +177,19 @@
       "date": "2026-03-16"
     },
     {
+      "name": "Build an AI Agent in Python",
+      "issuer": "Boot.dev",
+      "date": "2025-09-01"
+    },
+    {
+      "name": "Learn Functional Programming in Python",
+      "issuer": "Boot.dev",
+      "date": "2025-08-26"
+    },
+    {
       "name": "The Complete 2025 Software Testing Bootcamp",
       "issuer": "Udemy (Tarek Roshdy / Nezam Academy)",
       "date": "2025-10-09"
-    },
-    { "name": "Data Analysis", "issuer": "RPM Academy", "date": "2024-04-15" },
-    {
-      "name": "Agile Project Management",
-      "issuer": "RPM Academy",
-      "date": "2024-04-15"
     },
     {
       "name": "Power BI Essential Training (NASBA Certified)",
@@ -171,23 +201,18 @@
       "issuer": "LinkedIn Learning",
       "date": "2025-07-31"
     },
+    { "name": "Cybersecurity", "issuer": "RPM Academy", "date": "2024-04-17" },
+    { "name": "Data Analysis", "issuer": "RPM Academy", "date": "2024-04-15" },
+    {
+      "name": "Agile Project Management",
+      "issuer": "RPM Academy",
+      "date": "2024-04-15"
+    },
     {
       "name": "MySQL Essential Training",
       "issuer": "LinkedIn Learning",
       "date": "2023-10-17"
-    },
-
-    {
-      "name": "Learn Functional Programming in Python",
-      "issuer": "Boot.dev",
-      "date": "2025-08-26"
-    },
-    {
-      "name": "Build an AI Agent in Python",
-      "issuer": "Boot.dev",
-      "date": "2025-09-01"
-    },
-    { "name": "Cybersecurity", "issuer": "RPM Academy", "date": "2024-04-17" }
+    }
   ],
   "projects": [
     {
@@ -202,6 +227,62 @@
         "Front-End Development",
         "Web Development"
       ]
+    },
+    {
+      "name": "Home Lab — Self-Hosted Server Infrastructure",
+      "description": "Built a fully functional home server from recovered hardware running Ubuntu Server 24.04 LTS headless with SSH key authentication. Deployed a complete self-hosted stack including Netdata, Prometheus and Grafana for metrics monitoring, Pi-hole for network-wide DNS ad blocking, Tailscale for VPN remote access, and Jellyfin as a personal media server. Containerized services using Docker and unified under a Homepage dashboard. Configured static IP, per-device DNS, and network-level security without router access by working around ISP hardware limitations through Pi-hole DHCP.",
+      "highlights": [
+        "Ubuntu Server, Docker, Netdata, Prometheus, Grafana, Pi-hole, Tailscale, Jellyfin, Networking, Linux"
+      ],
+      "keywords": [
+        "Linux",
+        "Ubuntu",
+        "Docker",
+        "Self-Hosting",
+        "Networking",
+        "Pi-hole",
+        "Netdata",
+        "Grafana",
+        "Prometheus",
+        "Tailscale",
+        "Jellyfin",
+        "Home Lab"
+      ]
+    },
+    {
+      "name": "AI Agent in Python (Boot.dev Project)",
+      "description": "Developed an LLM-powered agent using Google Gemini API capable of reading, updating, and executing code via autonomous feedback loops. \n Demonstrated early AI-driven test automation capabilities.",
+      "highlights": ["Python, Google Gemini API, Agentic Workflows"],
+      "keywords": ["Python", "Google Gemini", "AI", "Automation"]
+    },
+    {
+      "name": "Static Site Generator (Boot.dev Project)",
+      "description": "Built a fully functional static site generator in Python from scratch. Converts Markdown files into a complete HTML website using a recursive file system crawler, custom Markdown parser, and object-oriented node architecture. \n\n Hosted on GitHub under my former name (ChristianBlackwell) — same account, now publishing as Dean Hattenhauer.",
+      "highlights": [
+        "Python, OOP, Markdown Parsing, Regex, Recursion, File System Operations"
+      ],
+      "keywords": [
+        "Python",
+        "Static Site Generation",
+        "OOP",
+        "Markdown",
+        "Regex",
+        "Recursion"
+      ],
+      "url": "https://github.com/ChristianBlackwell/Static-Site-Generator"
+    },
+    {
+      "name": "2D Platformer (Godot 4)",
+      "description": "A 2D platformer built in Godot 4, originally developed alongside Jackie Codes' Intro to Godot course (Udemy) and significantly extended with original systems. Features key collection, NPC interaction (The Reaper), teleportation, level progression, bounce pads, lava hazards, speed belt tiles, and a 3 heart health system.",
+      "highlights": ["Godot 4, GDScript, Game Development"],
+      "keywords": ["Godot", "GDScript", "Game Development", "2D Platformer"],
+      "url": "https://dean-codes.itch.io/2d-platformer"
+    },
+    {
+      "name": "UI Automation with Selenium & Katalon",
+      "description": "Created automated UI test scripts in Python using Selenium WebDriver to validate form and navigation flows. \n Explored Katalon Studio for codeless test automation and reporting dashboards.",
+      "highlights": ["Selenium, Python, Katalon, Automation Frameworks"],
+      "keywords": ["Selenium", "Python", "Katalon", "Automation"]
     },
     {
       "name": "Manual Web Testing",
@@ -241,10 +322,15 @@
       ]
     },
     {
-      "name": "UI Automation with Selenium & Katalon",
-      "description": "Created automated UI test scripts in Python using Selenium WebDriver to validate form and navigation flows. \n Explored Katalon Studio for codeless test automation and reporting dashboards.",
-      "highlights": ["Selenium, Python, Katalon, Automation Frameworks"],
-      "keywords": ["Selenium", "Python", "Katalon", "Automation"]
+      "name": "JavaScript Evaluation Automation Project (Foundever)",
+      "description": "Developed a browser-based JavaScript automation script to evaluate and validate functions for syntax correctness, edge-case handling, and runtime performance. \n Leveraged DOM manipulation to dynamically parse input elements, trigger test cases, and display validation results, reducing manual review time and improving testing accuracy.",
+      "highlights": ["JavaScript, DOM Manipulation, Automation, Unit Testing"],
+      "keywords": [
+        "JavaScript",
+        "DOM Manipulation",
+        "Automation",
+        "Unit Testing"
+      ]
     },
     {
       "name": "Audit Workflow Automation (Foundation Risk Partners)",
@@ -257,60 +343,6 @@
       "description": "Built an interactive dashboard to track audit progress, SLA compliance, and department KPIs. \n Enabled leadership to detect bottlenecks in real time and increased SLA-aligned completion by 15%.",
       "highlights": ["Power BI, DAX, Excel, Data Visualization"],
       "keywords": ["Power BI", "DAX", "Excel", "Reporting"]
-    },
-    {
-      "name": "AI Agent in Python (Boot.dev Project)",
-      "description": "Developed an LLM-powered agent using Google Gemini API capable of reading, updating, and executing code via autonomous feedback loops. \n Demonstrated early AI-driven test automation capabilities.",
-      "highlights": ["Python, Google Gemini API, Agentic Workflows"],
-      "keywords": ["Python", "Google Gemini", "AI", "Automation"]
-    },
-    {
-      "name": "Static Site Generator (Boot.dev Project)",
-      "description": "Built a fully functional static site generator in Python from scratch. Converts Markdown files into a complete HTML website using a recursive file system crawler, custom Markdown parser, and object-oriented node architecture. \n\n Hosted on GitHub under my former name (ChristianBlackwell) — same account, now publishing as Dean Hattenhauer.",
-      "highlights": [
-        "Python, OOP, Markdown Parsing, Regex, Recursion, File System Operations"
-      ],
-      "keywords": [
-        "Python",
-        "Static Site Generation",
-        "OOP",
-        "Markdown",
-        "Regex",
-        "Recursion"
-      ],
-      "url": "https://christianblackwell.github.io/Static-Site-Generator/"
-    },
-    {
-      "name": "2D Platformer (Godot 4)",
-      "description": "A 2D platformer built in Godot 4, originally developed alongside Jackie Codes' Intro to Godot course (Udemy) and significantly extended with original systems. Features key collection, NPC interaction (The Reaper), teleportation, level progression, bounce pads, lava hazards, speed belt tiles, and a 3 heart health system.",
-      "highlights": ["Godot 4, GDScript, Game Development"],
-      "keywords": ["Godot", "GDScript", "Game Development", "2D Platformer"],
-      "url": "https://dean-codes.itch.io/2d-platformer"
-    },
-    {
-      "name": "Movie Information Finder (Front-End API Project)",
-      "description": "Created a JavaScript web app integrating TMDb API for search, movie details, and random recommendations. \n Designed with modular code and responsive UI for clear data presentation. \n\n Hosted on GitHub under my former name (ChristianBlackwell) — same account, now publishing as Dean Hattenhauer.",
-      "highlights": ["HTML, CSS, JavaScript, TMDb API"],
-      "keywords": ["HTML", "CSS", "JavaScript", "TMDb API", "Frontend"],
-      "url": "https://christianblackwell.github.io/Movie-Information-Finder/"
-    },
-    {
-      "name": "Weather App (Front-End API Project)",
-      "description": "Built a front-end weather application allowing users to check real-time forecasts by city and state. \n Implemented dynamic data retrieval using the OpenWeatherMap API and styled responsive layouts for mobile and desktop users. \n\n Hosted on GitHub under my former name (ChristianBlackwell) — same account, now publishing as Dean Hattenhauer.",
-      "highlights": ["HTML, CSS, JavaScript, OpenWeatherMap API"],
-      "keywords": ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
-      "url": "https://christianblackwell.github.io/Weather-App/"
-    },
-    {
-      "name": "JavaScript Evaluation Automation Project (Foundever)",
-      "description": "Developed a browser-based JavaScript automation script to evaluate and validate functions for syntax correctness, edge-case handling, and runtime performance. \n Leveraged DOM manipulation to dynamically parse input elements, trigger test cases, and display validation results, reducing manual review time and improving testing accuracy.",
-      "highlights": ["JavaScript, DOM Manipulation, Automation, Unit Testing"],
-      "keywords": [
-        "JavaScript",
-        "DOM Manipulation",
-        "Automation",
-        "Unit Testing"
-      ]
     },
     {
       "name": "Full Security Audit Process Revamp (Foundation Risk Partners)",
@@ -328,6 +360,20 @@
         "DMAIC",
         "Process Improvement"
       ]
+    },
+    {
+      "name": "Movie Information Finder (Front-End API Project)",
+      "description": "Created a JavaScript web app integrating TMDb API for search, movie details, and random recommendations. \n Designed with modular code and responsive UI for clear data presentation. \n\n Hosted on GitHub under my former name (ChristianBlackwell) — same account, now publishing as Dean Hattenhauer.",
+      "highlights": ["HTML, CSS, JavaScript, TMDb API"],
+      "keywords": ["HTML", "CSS", "JavaScript", "TMDb API", "Frontend"],
+      "url": "https://christianblackwell.github.io/Movie-Information-Finder/"
+    },
+    {
+      "name": "Weather App (Front-End API Project)",
+      "description": "Built a front-end weather application allowing users to check real-time forecasts by city and state. \n Implemented dynamic data retrieval using the OpenWeatherMap API and styled responsive layouts for mobile and desktop users. \n\n Hosted on GitHub under my former name (ChristianBlackwell) — same account, now publishing as Dean Hattenhauer.",
+      "highlights": ["HTML, CSS, JavaScript, OpenWeatherMap API"],
+      "keywords": ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
+      "url": "https://christianblackwell.github.io/Weather-App/"
     }
   ]
 }
